@@ -9,11 +9,11 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Marcellus', 'Pretendard', sans-serif;
 }
 
-body {
-    /* padding: 3rem; */
-    font-family: "Nanum Gothic", sans-serif;
+body {   
+    font-family: 'Marcellus', 'Pretendard', sans-serif;
 }
 
 @keyframes moveInLeft {
@@ -53,8 +53,8 @@ h2 {
     font-size: 2.4rem;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #285a91, #1f9cfd);
-    -webkit-background-clip: text;
+    /* background: linear-gradient(90deg, #285a91, #1f9cfd); */
+    /* -webkit-background-clip: text; */
     background-color: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.5s;
@@ -97,7 +97,7 @@ h3 {
 
 .btn-text:hover {
     color: #fff;
-    background-color: #1f9cfd;
+    /* background-color: #1f9cfd; */
     border-bottom: 1px solid transparent;
 }
 
@@ -106,7 +106,7 @@ h3 {
 }
 
 .nav-button {
-    background-color: #c4e3ff;
+    /* background-color: #c4e3ff; */
     width: 7rem;
     height: 6rem;
     position: fixed;
@@ -120,7 +120,7 @@ h3 {
 }
 
 .nav-bg {
-    background-image: radial-gradient(#285a91, #1f9cfd);
+    /* background-image: radial-gradient(#285a91, #1f9cfd); */
     width: 7rem;
     height: 6rem;
     position: fixed;
@@ -164,7 +164,7 @@ h3 {
 .nav-icon:after {
     width: 3rem;
     height: 2px;
-    background-color: #333;
+    background-color: #fff;
     display: inline-block;
 }
 
@@ -242,7 +242,7 @@ h3 {
 
 header {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(../images//top_banner.jpg);
     background-blend-mode: multiply;
     background-size: cover;
@@ -279,7 +279,8 @@ header .logo-text {
 header .header-text {
     position: absolute;
     text-align: center;
-    /* left: 7rem; */
+    top: 50%;
+    left: 25%;
     bottom: 23%;
     color: #fff;
     letter-spacing: -0.1rem;
