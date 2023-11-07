@@ -344,8 +344,6 @@ main {
 }
 
 main .section-about1 {
-    /* background-color: #ededed; */
-    /* padding: 7rem 0 6.5rem 6rem; */
     width: 100%;
     min-height: 42rem;
     display: flex;
@@ -375,7 +373,6 @@ main .section-about2 {
 }
 
 main .section-about3 {
-
     width: 100%;
     min-height: 42rem;
     display: flex;
@@ -398,10 +395,21 @@ main .section-about4 {
     gap: 20rem;
     align-items: center;
     justify-content: center;
-    /* animation-name: moveInTop;
-    animation-duration: 4s;
-    animation-delay: 4s;
-    animation-fill-mode: backwards; */
+    animation-name: moveInTop;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+
+main .section-about5 {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5rem; */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .tag {
@@ -446,12 +454,54 @@ main .section-about4 {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    padding: 2rem;
+}
+
+.textbox_wrap3 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left:3rem ; */
+    margin: auto;
 }
 
 .img_wrap {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    animation-name: moveInTop;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+
+.img_wrap2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    /* width: 1000px; */
+}
+
+.img1 {
+    animation-name: moveInTop;
+    animation-duration: 6s;
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+}
+
+.img2 {
+    animation-name: moveInTop;
+    animation-duration: 6.5s;
+    animation-delay: 6.5s;
+    animation-fill-mode: backwards;
+}
+
+.img3 {
+    animation-name: moveInTop;
+    animation-duration: 7s;
+    animation-delay: 7s;
+    animation-fill-mode: backwards;
 }
 
 .btn2 {
