@@ -24,6 +24,38 @@ body {
   overflow-x: hidden;
 }
 
+.popup {
+  width: 500px;
+  height: 200px;
+  z-index: 99999;
+  background-color: #fff;
+  opacity: 80%;
+  border: 2px solid #285a91;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 37%;
+}
+
+.popup p:first-child {
+  padding: 50px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.close {
+  color: #fff;
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  background: #285a91;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0.1;
