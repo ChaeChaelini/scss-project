@@ -8,13 +8,8 @@
 
 ## 브라우저 호환성
 
-
-## 기술 사양
-
-
-## 코드리뷰
-
+## 사용기술
+#### HTML / CSS / JAVASCRIPT
 
 ## 정보
-
 김채린 / [@프로젝트 주소](https://github.com/ChaeChaelini/scss-project.git) / 이메일주소 @kimbona0901@gmail.com
