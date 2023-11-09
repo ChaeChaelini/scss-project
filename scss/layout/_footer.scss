@@ -1,6 +1,6 @@
 footer {
-	color: $color-gray-light;
-	background-color: $color-blue-dark;
+	color: $color2;
+	background-color: $color-white;
 	padding: 9rem 7rem 3rem 7rem;
 	display: flex;
 
@@ -10,11 +10,13 @@ footer {
 
 	.logo-text-footer {
 		width: 25%;
+
 		font: {
 			size: 4rem;
 			family: 'Lato', sans-serif;
 			weight: 100;
 		}
+
 		text-transform: uppercase;
 
 		@include mq('sm') {
@@ -22,17 +24,22 @@ footer {
 			font-size: 3rem;
 			width: 20%;
 		}
-	} //.logo-text-footer
+	}
+
+	//.logo-text-footer
 	.copyright {
 		width: 75%;
 		font-size: 1.2rem;
+
 		@include mq('sm') {
 			width: 60%;
 		}
+
 		p:nth-child(1) {
 			margin-bottom: 2rem;
 			word-break: break-all;
 			text-align: justify;
+
 			column: {
 				count: 3; //단갯수
 				gap: 3rem; //단여백
@@ -42,5 +49,9 @@ footer {
 				width: 1rem; //단의 너비
 			}
 		}
-	} //.copyright
-} //footer
+	}
+
+	//.copyright
+}
+
+//footer
