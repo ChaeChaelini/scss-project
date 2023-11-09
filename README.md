@@ -3,7 +3,7 @@
 > 리라브 홈페이지를 SCSS를 이용해 만들어 보았습니다. 
 
 ## 구현화면
-![](https://github.com/ChaeChaelini/scss-project/assets/142187098/b08207b9-f3dc-4cb4-9dc2-5a73b29928f5)
+![](https://github.com/ChaeChaelini/scss-project/assets/142187098/dcdcf28b-f2f7-489b-9862-b1bf5e529f87)
 
 ## 브라우저 호환성
 
