@@ -3,8 +3,7 @@
 
 @font-face {
   font-family: "Pretendard-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-    format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -135,7 +134,7 @@ h3 {
   transition: all 0.8s;
 }
 
-.nav-checkbox:checked ~ .nav-bg {
+.nav-checkbox:checked~.nav-bg {
   transform: scale(80);
 }
 
@@ -178,21 +177,21 @@ h3 {
   top: 1rem;
 }
 
-.nav-checkbox:checked ~ .nav-button .nav-icon:before {
+.nav-checkbox:checked~.nav-button .nav-icon:before {
   top: 0;
   transform: rotate(135deg);
 }
 
-.nav-checkbox:checked ~ .nav-button .nav-icon:after {
+.nav-checkbox:checked~.nav-button .nav-icon:after {
   top: 0;
   transform: rotate(-135deg);
 }
 
-.nav-checkbox:checked ~ .nav-button .nav-icon {
+.nav-checkbox:checked~.nav-button .nav-icon {
   background-color: transparent;
 }
 
-.nav-checkbox:checked ~ .nav-body {
+.nav-checkbox:checked~.nav-body {
   opacity: 1;
   left: 0;
 }
@@ -227,12 +226,10 @@ h3 {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.4s;
-  background-image: linear-gradient(
-    120deg,
-    transparent 0%,
-    transparent 50%,
-    #fff 50%
-  );
+  background-image: linear-gradient(120deg,
+      transparent 0%,
+      transparent 50%,
+      #fff 50%);
   background-size: 220%;
 }
 
@@ -673,7 +670,7 @@ main .section-etc {
   }
 }
 
-main .section-etc > [class^="etc"] {
+main .section-etc>[class^="etc"] {
   height: 14rem;
   display: flex;
   flex-direction: row;
@@ -735,6 +732,25 @@ footer {
   background-color: #fff;
   padding: 9rem 7rem 3rem 7rem;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_textbox {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.sitemap_wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.sitemap_wrap a {
+  text-decoration: none;
+  color: #666;
 }
 
 @media screen and (max-width: 700px) {
